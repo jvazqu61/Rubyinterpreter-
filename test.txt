@@ -1,0 +1,29 @@
+a NEWID
+b NEWID
+c NEWID
+d NEWID
+e NEWID
+a 2 ASSIGN
+b 21 ASSIGN
+c 42 ASSIGN
+d -7 ASSIGN
+e -12 ASSIGN
+list NEWID
+a list COMBINE
+b list COMBINE
+c list COMBINE
+d list COMBINE
+e list COMBINE
+sum NEWID
+sum 0 ASSIGN
+head NEWID
+tail NEWID
+alwaysTrue NEWID
+alwaysTrue 0 ASSIGN
+list 28 IF
+list head HEAD
+list tail TAIL
+sum head ADD
+tail list COPY
+alwaysTrue 22 IF
+HLT
